@@ -1,0 +1,26 @@
+<script Language="JavaScript">
+<!--
+function popup(url, name, width, height)
+{
+settings=
+"toolbar=yes,location=yes,directories=yes,"+
+"status=no,menubar=no,scrollbars=yes,"+
+"resizable=yes,width="+width+",height="+height;
+
+MyNewWindow=window.open("http://"+url,name,settings);
+}
+//-->
+</script> 
+
+<a href="#" onClick="popup('www.yahoo.com', 'Win1', 300, 300); return false">
+Click Here To Go to Yahoo</a>
+
+//starttime and end time store;
+
+
+// sort task by start time
+// find the current time with the task position
+// activate the task on the position
+// keep track the list
+// move the task forward when one task end
+// start the task if the user click on the task

@@ -1,8 +1,10 @@
 import React from 'react';
+import TaskList from './TaskList';
 
 const DashboardPage = () => (
   <div>
-    Dashboard page content
+    Dashboard
+      <TaskList />
   </div>
 );
 
